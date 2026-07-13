@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Short Story</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #f0f2f5;
+    color: #1a1a2e;
+    min-height: 100vh;
+    background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' opacity='0.035'%3E%3Ctext x='10' y='20' font-size='16'%3E%F0%9F%93%96%3C/text%3E%3Ctext x='35' y='45' font-size='12'%3E%E2%9C%8D%3C/text%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' opacity='0.03'%3E%3Ctext x='5' y='70' font-size='14'%3E%F0%9F%93%9A%3C/text%3E%3Ctext x='55' y='25' font-size='11'%3E%F0%9F%AA%B6%3C/text%3E%3Ctext x='60' y='80' font-size='13'%3E%F0%9F%93%9D%3C/text%3E%3C/svg%3E");
+  }
+
+  header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 40%, #0f3460 100%);
+    color: #fff;
+    padding: 3.5rem 1.5rem 2.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' opacity='0.06'%3E%3Ctext x='8' y='30' font-size='18'%3E%F0%9F%93%96%3C/text%3E%3Ctext x='45' y='60' font-size='14'%3E%E2%9C%8D%3C/text%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' opacity='0.05'%3E%3Ctext x='10' y='50' font-size='16'%3E%F0%9F%93%9A%3C/text%3E%3Ctext x='70' y='30' font-size='20'%3E%F0%9F%AA%B6%3C/text%3E%3Ctext x='50' y='95' font-size='15'%3E%F0%9F%93%9C%3C/text%3E%3C/svg%3E"),
+      linear-gradient(135deg, #1a1a2e 0%, #16213e 40%, #0f3460 100%);
+  }
+
+  header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(233,69,96,0.18) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  header::after {
+    content: '';
+    position: absolute;
+    bottom: -40%;
+    left: -10%;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(82,183,136,0.15) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  header h1 {
+    font-family: 'Noto Serif Devanagari', serif;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.01em;
+    position: relative;
+  }
+
+  header p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.92rem;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+  }
+
+  .search-row {
+    max-width: 540px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+  }
+
+  .search-container {
+    flex: 1;
+    position: relative;
+  }
+
+  .search-container svg {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    stroke: #94a3b8;
+  }
+
+  #search {
+    width: 100%;
+    padding: 14px 16px 14px 46px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    outline: none;
+    backdrop-filter: blur(10px);
+    transition: all 0.2s;
+  }
+
+  #search::placeholder { color: rgba(255,255,255,0.4); }
+  #search:focus {
+    background: rgba(255,255,255,0.12);
+    border-color: rgba(233,69,96,0.5);
+    box-shadow: 0 0 0 3px rgba(233,69,96,0.15);
+  }
+
+  .script-toggle {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.15);
+    flex-shrink: 0;
+  }
+
+  .script-toggle button {
+    padding: 12px 14px;
+    border: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: 'Inter', sans-serif;
+    line-height: 1;
+  }
+
+  .script-toggle button.active {
+    background: #e94560;
+    color: #fff;
+  }
+
+  .script-toggle button:not(.active) {
+    background: rgba(255,255,255,0.06);
+    color: rgba(255,255,255,0.5);
+  }
+
+  .script-toggle button:not(.active):hover {
+    background: rgba(255,255,255,0.12);
+    color: #fff;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 3rem;
+  }
+
+  .results-info {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 1.2rem;
+    font-weight: 500;
+  }
+
+  .story-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+  }
+
+  .story-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.3rem 1.4rem;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 2px 8px rgba(0,0,0,0.04);
+    transition: all 0.2s;
+    position: relative;
+    min-height: 120px;
+  }
+
+  .story-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.06);
+  }
+
+  .story-number {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    font-size: 0.72rem;
+    color: #cbd5e1;
+    font-weight: 600;
+  }
+
+  .story-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .story-title {
+    font-family: 'Noto Serif Devanagari', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1a1a2e;
+    line-height: 1.5;
+    margin-bottom: 4px;
+  }
+
+  .story-title a {
+    color: #0f3460;
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .story-title a:hover {
+    color: #e94560;
+  }
+
+  .story-writer {
+    font-size: 0.85rem;
+    color: #64748b;
+    font-weight: 400;
+    margin-bottom: auto;
+  }
+
+  .no-link {
+    display: inline-block;
+    font-size: 0.68rem;
+    color: #94a3b8;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+
+  .story-tags {
+    display: flex;
+    gap: 6px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 20px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+  }
+
+  .tag-lang {
+    background: #eef2ff;
+    color: #4338ca;
+  }
+
+  .tag-video {
+    background: #fef2f2;
+    color: #dc2626;
+  }
+
+  .tag-audio {
+    background: #ecfdf5;
+    color: #059669;
+  }
+
+  .tag-original {
+    background: #fef9c3;
+    color: #a16207;
+  }
+
+  .tag svg {
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .pagination button {
+    padding: 8px 14px;
+    border: 1px solid #e2e8f0;
+    background: #fff;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    color: #1a1a2e;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-weight: 500;
+  }
+
+  .pagination button:hover:not(:disabled) {
+    background: #0f3460;
+    color: #fff;
+    border-color: #0f3460;
+  }
+
+  .pagination button:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+
+  .pagination button.active {
+    background: #e94560;
+    color: #fff;
+    border-color: #e94560;
+  }
+
+  .pagination .page-btn {
+    min-width: 40px;
+    text-align: center;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 4rem 1rem;
+    color: #94a3b8;
+    grid-column: 1 / -1;
+  }
+
+  .empty-state p {
+    font-family: 'Noto Serif Devanagari', serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .empty-state span {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.8rem;
+    color: #94a3b8;
+    border-top: 1px solid #e2e8f0;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  footer a {
+    color: #e94560;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.8rem; }
+    header { padding: 2rem 1rem 2rem; }
+    .container { padding: 1.5rem 1rem 2rem; }
+    .story-card { padding: 1rem; gap: 0.75rem; }
+    .story-title { font-size: 1.05rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1 id="page-heading">Project Short Story</h1>
+  <p id="page-subtitle">इस पेज पर आपको उन कुछ कहानियों के पते मिलेंगे जो मैंने आजतक पढ़ी और पसंद की हैं। कहानियाँ बहुत सारी हैं पर सबके पते-ठिकाने अलग-अलग हैं। ऐसे में कहानी पढ़ने से अधिक समय इंटरनेट की गलियों की ख़ाक छानते हुए इन कहानियों को ढूँढने में गुज़र जाते हैं। इस पेज को बस एक एड्रेस बुक की तरह समझें जो आपको कुछ कहानियों तक पहुँचाने में सहायक होगा। हालाँकि सब कहानियाँ यहाँ एकत्र कर पाना तो कठिन है। जिन भी नई-पुरानी कहानियों को मैं समझता हूँ कि किसी भी हिंदी के नए पाठक को पढ़ ही लेना चाहिए, उन्हें ही यहाँ सहेजने का प्रयास रहेगा।</p>
+  <div class="search-row">
+    <div class="search-container">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/>
+      </svg>
+      <input type="text" id="search" placeholder="Search by writer or story name..." autocomplete="off">
+    </div>
+    <div class="script-toggle" id="script-toggle">
+      <button class="active" data-script="devanagari">अ</button>
+      <button data-script="roman">A</button>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="results-info" id="results-info"></div>
+  <div class="story-list" id="story-list"></div>
+  <div class="pagination" id="pagination"></div>
+</div>
+
+<footer id="page-footer"><a href="https://x.com/talrejajeee" target="_blank" rel="noopener">@talrejajeee</a> की तरफ़ से साहित्य अनुरागियों के लिए एक छोटी सी भेंट ❤️</footer>
+
+<script src="stories.js"></script>
+<script>
+const PER_PAGE = 12;
+let currentPage = 1;
+let filteredEntries = [];
+let useDevanagari = true;
+const devCache = new Map([
+  ['Renu', 'रेणु'],
+  ['Jaiswal', 'जायसवाल'],
+  ['Collectory', 'कलक्टरी'],
+  ['Toba', 'टोबा'],
+  ['Tek', 'टेक'],
+]);
+
+async function transliterate(text) {
+  if (devCache.has(text)) return devCache.get(text);
+  try {
+    const words = text.split(/\s+/);
+    const results = await Promise.all(words.map(async word => {
+      if (devCache.has(word)) return devCache.get(word);
+      if (/^[A-Z0-9]+$/.test(word)) { devCache.set(word, word); return word; }
+      const url = `https://inputtools.google.com/request?text=${encodeURIComponent(word)}&itc=hi-t-i0-und&num=1`;
+      const resp = await fetch(url);
+      const data = await resp.json();
+      const dev = (data[0] === 'SUCCESS' && data[1][0][1][0]) || word;
+      devCache.set(word, dev);
+      return dev;
+    }));
+    const full = results.join(' ');
+    devCache.set(text, full);
+    return full;
+  } catch {
+    return text;
+  }
+}
+
+async function prefetchDevanagari() {
+  const texts = new Set();
+  for (const w of DATA) {
+    texts.add(w.writer);
+    for (const s of w.stories) texts.add(s.story);
+  }
+  await Promise.all([...texts].map(t => transliterate(t)));
+}
+
+function getMediaType(link) {
+  if (!link) return null;
+  if (link.includes('youtube.com') || link.includes('youtu.be')) return 'video';
+  if (link.includes('spotify.com')) return 'audio';
+  return null;
+}
+
+function getDev(text) {
+  return devCache.get(text) || text;
+}
+
+function flattenData(query) {
+  const q = (query || '').toLowerCase().trim();
+  const entries = [];
+  for (const w of DATA) {
+    const writerDev = getDev(w.writer);
+    const writerMatch = !q || w.writer.toLowerCase().includes(q) || writerDev.includes(q);
+    for (const s of w.stories) {
+      const storyDev = getDev(s.story);
+      const storyMatch = !q || s.story.toLowerCase().includes(q) || storyDev.includes(q);
+      if (!writerMatch && !storyMatch) continue;
+      const showDev = useDevanagari && s.language === 'Hindi';
+      entries.push({
+        writer: showDev ? writerDev : w.writer,
+        story: showDev ? storyDev : s.story,
+        link: s.link,
+        language: s.language,
+        media: getMediaType(s.link),
+        original: s.original || null
+      });
+    }
+  }
+  return entries;
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function render() {
+  const list = document.getElementById('story-list');
+  const info = document.getElementById('results-info');
+  const totalPages = Math.max(1, Math.ceil(filteredEntries.length / PER_PAGE));
+
+  if (currentPage > totalPages) currentPage = totalPages;
+
+  const start = (currentPage - 1) * PER_PAGE;
+  const pageEntries = filteredEntries.slice(start, start + PER_PAGE);
+
+  if (pageEntries.length === 0) {
+    list.innerHTML = '<div class="empty-state"><p>कोई कहानी नहीं मिली</p><span>No stories found for this search</span></div>';
+    info.textContent = '';
+  } else {
+    info.textContent = `Showing ${start + 1}–${start + pageEntries.length} of ${filteredEntries.length} stories`;
+    list.innerHTML = pageEntries.map((entry, i) => {
+      const num = start + i + 1;
+      const title = entry.link
+        ? `<a href="${escapeHtml(entry.link)}" target="_blank" rel="noopener">${escapeHtml(entry.story)}</a>`
+        : `${escapeHtml(entry.story)}<span class="no-link">link unavailable</span>`;
+
+      let tags = `<span class="tag tag-lang">${escapeHtml(entry.language)}</span>`;
+      if (entry.media === 'video') {
+        tags += `<span class="tag tag-video"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>Video</span>`;
+      } else if (entry.media === 'audio') {
+        tags += `<span class="tag tag-audio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3v10.55A4 4 0 1014 17V7h4V3h-6z"/></svg>Audio</span>`;
+      }
+      if (entry.original) {
+        tags += `<span class="tag tag-original">Translated From: ${escapeHtml(entry.original)}</span>`;
+      }
+
+      return `<div class="story-card">
+        <span class="story-number">${num}</span>
+        <div class="story-title">${title}</div>
+        <div class="story-writer">${escapeHtml(entry.writer)}</div>
+        <div class="story-tags">${tags}</div>
+      </div>`;
+    }).join('');
+  }
+
+  renderPagination(totalPages);
+}
+
+function renderPagination(totalPages) {
+  const pag = document.getElementById('pagination');
+  if (totalPages <= 1) { pag.innerHTML = ''; return; }
+
+  let html = `<button ${currentPage === 1 ? 'disabled' : ''} onclick="goTo(${currentPage - 1})">← Prev</button>`;
+
+  for (let p = 1; p <= totalPages; p++) {
+    html += `<button class="page-btn ${p === currentPage ? 'active' : ''}" onclick="goTo(${p})">${p}</button>`;
+  }
+
+  html += `<button ${currentPage === totalPages ? 'disabled' : ''} onclick="goTo(${currentPage + 1})">Next →</button>`;
+  pag.innerHTML = html;
+}
+
+function goTo(page) {
+  currentPage = page;
+  render();
+  window.scrollTo({ top: document.querySelector('.container').offsetTop - 20, behavior: 'smooth' });
+}
+
+document.getElementById('search').addEventListener('input', function() {
+  filteredEntries = flattenData(this.value);
+  currentPage = 1;
+  render();
+});
+
+document.getElementById('script-toggle').addEventListener('click', function(e) {
+  const btn = e.target.closest('button');
+  if (!btn || btn.classList.contains('active')) return;
+  this.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  useDevanagari = btn.dataset.script === 'devanagari';
+  document.getElementById('page-footer').innerHTML = useDevanagari ? '<a href="https://x.com/talrejajeee" target="_blank" rel="noopener">@talrejajeee</a> की तरफ़ से साहित्य अनुरागियों के लिए एक छोटी सी भेंट ❤️' : 'Created with ❤️ by <a href="https://x.com/talrejajeee" target="_blank" rel="noopener">@talrejajeee</a>';
+  const sub = document.getElementById('page-subtitle');
+  if (useDevanagari) {
+    sub.textContent = 'इस पेज पर आपको उन कुछ कहानियों के पते मिलेंगे जो मैंने आजतक पढ़ी और पसंद की हैं। कहानियाँ बहुत सारी हैं पर सबके पते-ठिकाने अलग-अलग हैं। ऐसे में कहानी पढ़ने से अधिक समय इंटरनेट की गलियों की ख़ाक छानते हुए इन कहानियों को ढूँढने में गुज़र जाते हैं। इस पेज को बस एक एड्रेस बुक की तरह समझें जो आपको कुछ कहानियों तक पहुँचाने में सहायक होगा। हालाँकि सब कहानियाँ यहाँ एकत्र कर पाना तो कठिन है। जिन भी नई-पुरानी कहानियों को मैं समझता हूँ कि किसी भी हिंदी के नए पाठक को पढ़ ही लेना चाहिए, उन्हें ही यहाँ सहेजने का प्रयास रहेगा।';
+  } else {
+    sub.textContent = 'On this page you will find links to some of the stories I have read and loved so far. There are countless stories out there but their addresses are scattered across the internet. We end up spending more time scouring the lanes of the internet searching for these stories than actually reading them. Think of this page as an address book that can help you find some of those stories. Gathering every story here is difficult, of course. The endeavour is to collect those old and new stories that I believe any new reader of Hindi literature should read.';
+  }
+  filteredEntries = flattenData(document.getElementById('search').value);
+  render();
+});
+
+filteredEntries = flattenData('');
+render();
+prefetchDevanagari().then(() => {
+  filteredEntries = flattenData(document.getElementById('search').value);
+  render();
+});
+</script>
+</body>
+</html>
