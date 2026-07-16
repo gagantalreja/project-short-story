@@ -50,6 +50,21 @@ const DATA = [
     ]
   },
   {
+    "writer": "Bhagwaticharan Verma",
+    "stories": [
+      {
+        "story": "Prayashchit",
+        "link": "https://www.hindwi.org/story/prayashchit-bhagwaticharan-verma-story",
+        "language": "Hindi"
+      },
+      {
+        "story": "Do Baanke",
+        "link": "https://www.hindwi.org/story/do-banke-bhagvati-charan-verma-story",
+        "language": "Hindi"
+      }
+    ]
+  },
+  {
     "writer": "Bhishm Sahni",
     "stories": [
       {
@@ -125,6 +140,11 @@ const DATA = [
       {
         "story": "Bholaram Ka Jeev",
         "link": "https://www.hindwi.org/story/bholaram-ka-jeew-harishankar-parsai-story",
+        "language": "Hindi"
+      },
+      {
+        "story": "Inspector Matadin Chaand Par",
+        "link": "https://www.hindwi.org/story/inspector-matadin-chaand-par-harishankar-parsai-story",
         "language": "Hindi"
       }
     ]
@@ -415,6 +435,11 @@ const DATA = [
       {
         "story": "Bauji Aur Bandar",
         "link": "https://tinyurl.com/suryabala-bauji-aur-bandar",
+        "language": "Hindi"
+      },
+      {
+        "story": "Naa Kinni Naa",
+        "link": "https://youtu.be/oyjk6zcUXRg?si=2acQ5Fj-Mj5PAtpV",
         "language": "Hindi"
       }
     ]
