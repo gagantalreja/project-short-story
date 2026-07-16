@@ -131,7 +131,7 @@ const DATA = [
         "story": "Upawaasi Kalaakaar",
         "link": "https://samalochan.com/a-hunger-artist/",
         "language": "Hindi",
-        "original": "English by Arun Dev"
+        "original": "English by Ashutosh Bhardwaj"
       }
     ]
   },
@@ -221,6 +221,16 @@ const DATA = [
       {
         "story": "Sharbat",
         "link": "https://jankipul.com/lucky-rajeevs-short-story-sharbat.html",
+        "language": "Hindi"
+      }
+    ]
+  },
+  {
+    "writer": "Mahadevi Verma",
+    "stories": [
+      {
+        "story": "Gillu",
+        "link": "https://www.femina.in/hindi/sahitya/kahani/gillu-by-mahadevi-varma-1979-2.html",
         "language": "Hindi"
       }
     ]
