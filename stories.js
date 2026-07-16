@@ -441,7 +441,8 @@ const DATA = [
       {
         "story": "Do Jadugar",
         "link": "https://acrobat.adobe.com/id/urn:aaid:sc:AP:da7a7075-fc63-4ac8-9f52-075b372eb332",
-        "language": "Hindi"
+        "language": "Hindi",
+        "magazine": "Vanmali Katha"
       }
     ]
   },

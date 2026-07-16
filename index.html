@@ -282,6 +282,11 @@
     color: #a16207;
   }
 
+  .tag-magazine {
+    background: #fce7f3;
+    color: #9d174d;
+  }
+
   .tag svg {
     width: 12px;
     height: 12px;
@@ -478,7 +483,8 @@ function flattenData(query) {
         link: s.link,
         language: s.language,
         media: getMediaType(s.link),
-        original: s.original || null
+        original: s.original || null,
+        magazine: s.magazine || null
       });
     }
   }
@@ -520,6 +526,9 @@ function render() {
       }
       if (entry.original) {
         tags += `<span class="tag tag-original">Translated From ${escapeHtml(entry.original)}</span>`;
+      }
+      if (entry.magazine) {
+        tags += `<span class="tag tag-magazine">Sourced From: ${escapeHtml(entry.magazine)}</span>`;
       }
 
       return `<div class="story-card">
