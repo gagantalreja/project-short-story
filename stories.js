@@ -160,6 +160,21 @@ const DATA = [
     ]
   },
   {
+    "writer": "Jaishankar Prasad",
+    "stories": [
+      {
+        "story": "Gunda",
+        "link": "https://www.hindwi.org/story/gunda-jaishankar-prasad-story",
+        "language": "Hindi"
+      },
+      {
+        "story": "Mamta",
+        "link": "https://www.hindwi.org/story/mamta-jaishankar-prasad-story",
+        "language": "Hindi"
+      }
+    ]
+  },
+  {
     "writer": "Krishn Baldev Vaid",
     "stories": [
       {
