@@ -100,6 +100,16 @@ const DATA = [
     ]
   },
   {
+    "writer": "Chandradhar Sharma Guleri",
+    "stories": [
+      {
+        "story": "Usne Kahaa Tha",
+        "link": "https://www.hindwi.org/story/usne-kaha-tha-chandradhar-sharma-guleri-story",
+        "language": "Hindi"
+      }
+    ]
+  },
+  {
     "writer": "Chandrakishore Jaiswal",
     "stories": [
       {
@@ -111,6 +121,17 @@ const DATA = [
         "story": "Nakbesar Kaaga Le Bhaaga",
         "link": "https://tinyurl.com/nakbesar-kaaga-le-bhaaga",
         "language": "Hindi"
+      }
+    ]
+  },
+  {
+    "writer": "Franz Kafka",
+    "stories": [
+      {
+        "story": "Upawaasi Kalaakaar",
+        "link": "https://samalochan.com/a-hunger-artist/",
+        "language": "Hindi",
+        "original": "English by Arun Dev"
       }
     ]
   },

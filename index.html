@@ -519,7 +519,7 @@ function render() {
         tags += `<span class="tag tag-audio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3v10.55A4 4 0 1014 17V7h4V3h-6z"/></svg>Audio</span>`;
       }
       if (entry.original) {
-        tags += `<span class="tag tag-original">Translated From: ${escapeHtml(entry.original)}</span>`;
+        tags += `<span class="tag tag-original">Translated From ${escapeHtml(entry.original)}</span>`;
       }
 
       return `<div class="story-card">
