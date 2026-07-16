@@ -140,6 +140,16 @@ const DATA = [
     ]
   },
   {
+    "writer": "Krishn Baldev Vaid",
+    "stories": [
+      {
+        "story": "Mera Dushman",
+        "link": "https://www.hindwi.org/story/mera-dushman-krishn-baldev-vaid-story",
+        "language": "Hindi"
+      }
+    ]
+  },
+  {
     "writer": "Kunal Singh",
     "stories": [
       {
@@ -420,6 +430,16 @@ const DATA = [
     ]
   },
   {
+    "writer": "Swayam Prakash",
+    "stories": [
+      {
+        "story": "Pitaaji Ka Samay",
+        "link": "https://www.youtube.com/watch?v=vNVZZlRcV6E",
+        "language": "Hindi"
+      }
+    ]
+  },
+  {
     "writer": "Uday Prakash",
     "stories": [
       {
@@ -497,16 +517,6 @@ const DATA = [
         "link": null,
         "language": "Hindi",
         "original": "Odia"
-      }
-    ]
-  },
-  {
-    "writer": "Krishna Baldev Vaid",
-    "stories": [
-      {
-        "story": "Mera Dushman",
-        "link": "https://www.hindwi.org/story/mera-dushman-krishn-baldev-vaid-story",
-        "language": "Hindi"
       }
     ]
   }
