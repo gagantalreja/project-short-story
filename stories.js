@@ -125,6 +125,16 @@ const DATA = [
     ]
   },
   {
+    "writer": "Ejazul Hak",
+    "stories": [
+      {
+        "story": "Bakhshish",
+        "link": "https://samalochan.com/bakhshish/",
+        "language": "Hindi"
+      }
+    ]
+  },
+  {
     "writer": "Franz Kafka",
     "stories": [
       {
