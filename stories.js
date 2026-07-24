@@ -246,6 +246,17 @@ const DATA = [
     ]
   },
   {
+    "writer": "Mahashweta Devi",
+    "stories": [
+      {
+        "story": "The Hunt",
+        "link": "https://www.elearning.chittamahatomemorialcollege.ac.in/files/BA65025016059236150.pdf",
+        "language": "English",
+        "original": "Bengali by Gayatri Spivak"
+      }
+    ]
+  },
+  {
     "writer": "Mannu Bhandari",
     "stories": [
       {
