@@ -297,6 +297,11 @@ const DATA = [
         "story": "Thanda Gosht",
         "link": "https://www.rekhta.org/stories/thanda-gosht-saadat-hasan-manto-stories?lang=hi",
         "language": "Hindi"
+      },
+      {
+        "story": "Baadshaahat Ka Khaatma",
+        "link": "https://www.rekhta.org/stories/baadhshaahat-ka-khaatima-saadat-hasan-manto-stories?lang=hi",
+        "language": "Hindi"
       }
     ]
   },
