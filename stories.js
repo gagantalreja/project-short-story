@@ -617,5 +617,30 @@ const DATA = [
         "original": "Odia"
       }
     ]
+  },
+  {
+    "writer": "Rabindranath Tagore",
+    "stories": [
+      {
+        "story": "Paashaani",
+        "link": "https://hindikahani.hindi-kavita.com/PashaniRabindranathTagore.php",
+        "language": "Hindi"
+      },
+      {
+        "story": "The Hungry Stones",
+        "link": "https://short-stories.co/@rabindranathtagore/the-hungry-stones-3jglpynpqldx",
+        "language": "English"
+      },
+      {
+        "story": "The Postmaster",
+        "link": "https://short-stories.co/@rabindranathtagore/the-postmaster-2xwv9x3edv4d",
+        "language": "English"
+      },
+      {
+        "story": "The Lost Jewels",
+        "link": "https://en.wikisource.org/wiki/The_Modern_Review/Volume_21/Number_6/The_Lost_Jewels",
+        "language": "English"
+      }
+    ]
   }
 ];
