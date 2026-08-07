@@ -642,5 +642,15 @@ const DATA = [
         "language": "English"
       }
     ]
+  },
+  {
+    "writer": "Shekhar Joshi",
+    "stories": [
+      {
+        "story": "Kosi Ka Ghatwaar",
+        "link": "https://www.hindwi.org/story/kosi-ka-ghatwar-shekhar-joshi-story",
+        "language": "Hindi"
+      }
+    ]
   }
 ];
