@@ -652,5 +652,15 @@ const DATA = [
         "language": "Hindi"
       }
     ]
+  },
+  {
+    "writer": "Rajkamal Chaudhary",
+    "stories": [
+      {
+        "story": "Jalte Hue Makaan Mein Kuch Log",
+        "link": "https://www.hindwi.org/story/jalte-hue-makan-mein-kuch-log-rajkamal-choudhary-story",
+        "language": "Hindi"
+      }
+    ]
   }
 ];
