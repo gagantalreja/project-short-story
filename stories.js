@@ -662,5 +662,20 @@ const DATA = [
         "language": "Hindi"
       }
     ]
+  },
+  {
+    "writer": "Rajendra Singh Bedi",
+    "stories": [
+      {
+        "story": "Garm Coat",
+        "link": "https://www.rekhta.org/stories/garam-coat-rajinder-singh-bedi-stories?lang=hi",
+        "language": "Hindi"
+      },
+      {
+        "story": "Kokh Jali",
+        "link": "https://www.rekhta.org/stories/kokh-jali-rajinder-singh-bedi-stories-1?lang=hi",
+        "language": "Hindi"
+      }
+    ]
   }
 ];
