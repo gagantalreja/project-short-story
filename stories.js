@@ -677,5 +677,15 @@ const DATA = [
         "language": "Hindi"
       }
     ]
+  },
+  {
+    "writer": "Mohan Rakesh",
+    "stories": [
+      {
+        "story": "Jaanwar Aur Jaanwar",
+        "link": "https://www.hindwi.org/story/janwar-aur-janwar-mohan-rakesh-story",
+        "language": "Hindi"
+      }
+    ]
   }
 ];
