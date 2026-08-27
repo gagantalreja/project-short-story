@@ -675,6 +675,21 @@ const DATA = [
         "story": "Kokh Jali",
         "link": "https://www.rekhta.org/stories/kokh-jali-rajinder-singh-bedi-stories-1?lang=hi",
         "language": "Hindi"
+      },
+      {
+        "story": "Laajwanti",
+        "link": "https://www.rekhta.org/stories/lajwanti-rajinder-singh-bedi-stories?lang=hi",
+        "language": "Hindi"
+      },
+      {
+        "story": "Apne Dukh Mujhe De Do",
+        "link": "https://www.rekhta.org/stories/apne-dukh-mujhe-de-do-rajinder-singh-bedi-stories?lang=hi",
+        "language": "Hindi"
+      },
+      {
+        "story": "Bhola",
+        "link": "https://www.rekhta.org/stories/bhola-rajinder-singh-bedi-stories?lang=hi",
+        "language": "Hindi"
       }
     ]
   },
