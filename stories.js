@@ -343,6 +343,11 @@ const DATA = [
         "story": "Chunnu Utsaahi MLA Candidate",
         "link": null,
         "language": "Hindi"
+      },
+      {
+        "story": "Kahaani Factory",
+        "link": "https://jankipul.com/a-short-story-of-nihal-parashar.html",
+        "language": "Hindi"
       }
     ]
   },
@@ -699,6 +704,16 @@ const DATA = [
       {
         "story": "Jaanwar Aur Jaanwar",
         "link": "https://www.hindwi.org/story/janwar-aur-janwar-mohan-rakesh-story",
+        "language": "Hindi"
+      }
+    ]
+  },
+  {
+    "writer": "Charan Singh Pathik",
+    "stories": [
+      {
+        "story": "Do Behnein",
+        "link": "https://tinyurl.com/csp-do-behne",
         "language": "Hindi"
       }
     ]
