@@ -717,5 +717,15 @@ const DATA = [
         "language": "Hindi"
       }
     ]
+  },
+  {
+    "writer": "Sanjay Khaati",
+    "stories": [
+      {
+        "story": "Pinti Ka Saabun",
+        "link": "https://www.hindwi.org/story/pinti-ka-sabun-sanjay-khati-story",
+        "language": "Hindi"
+      }
+    ]
   }
 ];
