@@ -501,7 +501,7 @@ const DATA = [
     "writer": "Suryabala",
     "stories": [
       {
-        "story": "Sunanda Chhokri Ki Diary",
+        "story": "Ve Zarii Ke Phool",
         "link": "https://tinyurl.com/suryabala-sunanda-chhokri",
         "language": "Hindi"
       },
@@ -518,6 +518,11 @@ const DATA = [
       {
         "story": "Naa Kinni Naa",
         "link": "https://youtu.be/oyjk6zcUXRg?si=2acQ5Fj-Mj5PAtpV",
+        "language": "Hindi"
+      },
+      {
+        "story": "Behnon Ka Jalsaa",
+        "link": "https://tinyurl.com/suryabal-bkj",
         "language": "Hindi"
       }
     ]
@@ -617,9 +622,10 @@ const DATA = [
     "stories": [
       {
         "story": "Mar Nahin Rahi Maa",
-        "link": null,
+        "link": "./data/mar-nahin-rahi-maa-bijay-nayak.pdf",
         "language": "Hindi",
-        "original": "Odia"
+        "original": "Odia by Rajendra Prasad Mishra",
+        "magazine": "AajKal"
       }
     ]
   },
