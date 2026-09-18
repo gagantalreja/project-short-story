@@ -727,5 +727,15 @@ const DATA = [
         "language": "Hindi"
       }
     ]
+  },
+  {
+    "writer": "Rajesh Joshi",
+    "stories": [
+      {
+        "story": "Main Hawa Paani Parinda Kuchh Nahin",
+        "link": "https://tinyurl.com/hans-rajesh",
+        "language": "Hindi"
+      }
+    ]
   }
 ];
