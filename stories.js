@@ -743,5 +743,20 @@ const DATA = [
         "language": "Hindi"
       }
     ]
+  },
+  {
+    "writer": "Vijaydan Detha",
+    "stories": [
+      {
+        "story": "Duvidha",
+        "link": "https://www.hindwi.org/story/duwidha-vijaydan-detha-story",
+        "language": "Hindi"
+      },
+      {
+        "story": "Beta Kiska?",
+        "link": "https://hindikahani.hindi-kavita.com/Beta-Kiska-Vijaydan-Detha.php",
+        "language": "Hindi"
+      }
+    ]
   }
 ];
