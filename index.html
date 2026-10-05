@@ -677,6 +677,7 @@
   <button class="filter-chip active" data-filter="all">All</button>
   <button class="filter-chip" data-filter="hindi">Hindi</button>
   <button class="filter-chip" data-filter="english">English</button>
+  <button class="filter-chip" data-filter="urdu">Urdu</button>
   <button class="filter-chip" data-filter="video">
     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
     Video
@@ -717,7 +718,8 @@ const devCache = new Map([
   ['Collectory', 'कलक्टरी'],
   ['Toba', 'टोबा'],
   ['Tek', 'टेक'],
-  ['Bakhshish', 'बख्शिश']
+  ['Bakhshish', 'बख्शिश'],
+  ['Zari', 'ज़री']
 ]);
 
 function getAvatarColor(name) {
@@ -804,6 +806,7 @@ function flattenData(query) {
 
       if (activeFilter !== 'all') {
         if (activeFilter === 'hindi' && s.language !== 'Hindi') continue;
+        if (activeFilter === 'urdu' && s.language !== 'Urdu') continue;
         if (activeFilter === 'english' && s.language !== 'English') continue;
         if (activeFilter === 'video' && media !== 'video') continue;
         if (activeFilter === 'audio' && media !== 'audio') continue;
@@ -811,7 +814,7 @@ function flattenData(query) {
         if (activeFilter === 'magazine' && !s.magazine) continue;
       }
 
-      const showDev = useDevanagari && s.language === 'Hindi';
+      const showDev = useDevanagari && (s.language === 'Hindi' || s.language === 'Urdu');
       entries.push({
         writer: showDev ? writerDev : w.writer,
         writerRaw: w.writer,
@@ -940,8 +943,8 @@ document.getElementById('script-toggle').addEventListener('click', function(e) {
   btn.classList.add('active');
   useDevanagari = btn.dataset.script === 'devanagari';
   document.getElementById('page-footer').innerHTML = useDevanagari
-    ? '<a href="https://x.com/talrejajeee" target="_blank" rel="noopener">@talrejajeee</a> की तरफ़ से साहित्य अनुरागियों के लिए एक छोटी सी भेंट ❤️'
-    : 'Created with ❤️ by <a href="https://x.com/talrejajeee" target="_blank" rel="noopener">@talrejajeee</a>';
+    ? '<a href="https://x.com/yomamashakuni" target="_blank" rel="noopener">@yomamashakuni</a> की तरफ़ से साहित्य अनुरागियों के लिए एक छोटी सी भेंट ❤️'
+    : 'Created with ❤️ by <a href="https://x.com/yomamashakuni" target="_blank" rel="noopener">@yomamashakuni</a>';
   refreshList();
 });
 
@@ -951,6 +954,7 @@ document.getElementById('filter-bar').addEventListener('click', function(e) {
   this.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
   chip.classList.add('active');
   activeFilter = chip.dataset.filter;
+  console.log('Active filter:', activeFilter);
   refreshList();
 });
 

@@ -186,7 +186,12 @@ const DATA = [
       {
         "story": "Lihaaf",
         "link": "https://www.rekhta.org/stories/lihaaf-ismat-chughtai-stories?lang=hi",
-        "language": "Hindi"
+        "language": "Urdu"
+      },
+      {
+        "story": "Chhuee Muee",
+        "link": "https://www.rekhta.org/stories/chhuee-muee-ismat-chughtai-stories?lang=hi",
+        "language": "Urdu"
       }
     ]
   },
@@ -292,27 +297,27 @@ const DATA = [
       {
         "story": "Khol Do",
         "link": "https://www.rekhta.org/poets/saadat-hasan-manto/stories",
-        "language": "Hindi"
+        "language": "Urdu"
       },
       {
         "story": "Toba Tek Singh",
         "link": "https://www.rekhta.org/stories/toba-tek-singh-saadat-hasan-manto-stories?lang=hi",
-        "language": "Hindi"
+        "language": "Urdu"
       },
       {
         "story": "Phaaha",
         "link": "https://www.rekhta.org/stories/phaaha-saadat-hasan-manto-stories?lang=hi",
-        "language": "Hindi"
+        "language": "Urdu"
       },
       {
         "story": "Thanda Gosht",
         "link": "https://www.rekhta.org/stories/thanda-gosht-saadat-hasan-manto-stories?lang=hi",
-        "language": "Hindi"
+        "language": "Urdu"
       },
       {
         "story": "Baadshaahat Ka Khaatma",
         "link": "https://www.rekhta.org/stories/baadhshaahat-ka-khaatima-saadat-hasan-manto-stories?lang=hi",
-        "language": "Hindi"
+        "language": "Urdu"
       }
     ]
   },
@@ -501,7 +506,7 @@ const DATA = [
     "writer": "Suryabala",
     "stories": [
       {
-        "story": "Ve Zarii Ke Phool",
+        "story": "Ve Zari Ke Phool",
         "link": "https://tinyurl.com/suryabala-sunanda-chhokri",
         "language": "Hindi"
       },
@@ -523,6 +528,11 @@ const DATA = [
       {
         "story": "Behnon Ka Jalsaa",
         "link": "https://tinyurl.com/suryabal-bkj",
+        "language": "Hindi"
+      },
+      {
+        "story": "Aakhri Vidaa",
+        "link": "https://tinyurl.com/surya-akhiri-vida",
         "language": "Hindi"
       }
     ]
@@ -614,6 +624,11 @@ const DATA = [
         "story": "Khuda Aur Khuda Ki Ladai",
         "link": "https://www.youtube.com/watch?v=oscaMjVBRNU",
         "language": "Hindi"
+      },
+      {
+        "story": "Tumne Kyon Kaha Tha, Main Sundar Hun",
+        "link": "https://www.femina.in/hindi/sahitya/kahani/story-tumne-kyon-kahan-tha-main-sundar-hoon-by-yashpal-4615.html",
+        "language": "Hindi"
       }
     ]
   },
@@ -660,6 +675,11 @@ const DATA = [
       {
         "story": "Kosi Ka Ghatwaar",
         "link": "https://www.hindwi.org/story/kosi-ka-ghatwar-shekhar-joshi-story",
+        "language": "Hindi"
+      },
+      {
+        "story": "Daajyu",
+        "link": "https://kafaltree.com/dajyu-story-shekhar-joshi/",
         "language": "Hindi"
       }
     ]
@@ -756,6 +776,26 @@ const DATA = [
         "story": "Beta Kiska?",
         "link": "https://hindikahani.hindi-kavita.com/Beta-Kiska-Vijaydan-Detha.php",
         "language": "Hindi"
+      }
+    ]
+  },
+  {
+    "writer": "Qurratulain Haider",
+    "stories": [
+      {
+        "story": "Nazzaara Darmiyaan Hai",
+        "link": "https://www.rekhta.org/stories/nazzaara-darmiyaan-hai-qurratulain-hyder-stories",
+        "language": "Urdu"
+      },
+      {
+        "story": "Photographer",
+        "link": "https://www.rekhta.org/stories/photographer-qurratulain-hyder-stories",
+        "language": "Urdu"
+      },
+      {
+        "story": "Raushni Ki Raftaar",
+        "link": "https://www.rekhta.org/stories/raushni-ki-raftaar-qurratulain-hyder-stories",
+        "language": "Urdu"
       }
     ]
   }
