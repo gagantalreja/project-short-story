@@ -534,6 +534,11 @@ const DATA = [
         "story": "Aakhri Vidaa",
         "link": "https://tinyurl.com/surya-akhiri-vida",
         "language": "Hindi"
+      },
+      {
+        "story": "My Name ish tata",
+        "link": "https://tinyurl.com/surya-mnit",
+        "language": "Hindi"
       }
     ]
   },
@@ -633,7 +638,7 @@ const DATA = [
     ]
   },
   {
-    "writer": "Unknown",
+    "writer": "Bijay Nayak",
     "stories": [
       {
         "story": "Mar Nahin Rahi Maa",
