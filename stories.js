@@ -86,6 +86,21 @@ const DATA = [
         "story": "Amritsar Aa Gaya Hai",
         "link": "https://www.hindwi.org/story/amritsar-a-gaya-hai-bhisham-sahani-story",
         "language": "Hindi"
+      },
+      {
+        "story": "Sardaarni",
+        "link": "https://www.youtube.com/watch?v=I-fKUSO96YM",
+        "language": "Hindi"
+      },
+      {
+        "story": "Gulelbaaz Ladka",
+        "link": "https://www.youtube.com/watch?v=YSs9c_MQgGk",
+        "language": "Hindi"
+      },
+      {
+        "story": "Maata Vimaata",
+        "link": "https://www.youtube.com/watch?v=Yo1TmBNC1SU",
+        "language": "Hindi"
       }
     ]
   },
@@ -257,7 +272,7 @@ const DATA = [
         "story": "The Hunt",
         "link": "https://www.elearning.chittamahatomemorialcollege.ac.in/files/BA65025016059236150.pdf",
         "language": "English",
-        "original": "Bengali by Gayatri Spivak"
+        "original": "Bangla by Gayatri Spivak"
       }
     ]
   },
@@ -317,6 +332,21 @@ const DATA = [
       {
         "story": "Baadshaahat Ka Khaatma",
         "link": "https://www.rekhta.org/stories/baadhshaahat-ka-khaatima-saadat-hasan-manto-stories?lang=hi",
+        "language": "Urdu"
+      },
+      {
+        "story": "Aankhein",
+        "link": "https://www.rekhta.org/stories/aankhen-saadat-hasan-manto-stories?lang=hi",
+        "language": "Urdu"
+      },
+      {
+        "story": "Kaali Shalwaar",
+        "link": "https://www.rekhta.org/stories/kaali-shalwaar-saadat-hasan-manto-stories?lang=hi",
+        "language": "Urdu"
+      },
+      {
+        "story": "Tetwaal Ka Kutta",
+        "link": "https://www.rekhta.org/stories/tetwaal-ka-kutta-saadat-hasan-manto-stories?lang=hi",
         "language": "Urdu"
       }
     ]
@@ -531,7 +561,7 @@ const DATA = [
         "language": "Hindi"
       },
       {
-        "story": "Aakhri Vidaa",
+        "story": "Aakhiri Vidaa",
         "link": "https://tinyurl.com/surya-akhiri-vida",
         "language": "Hindi"
       },
@@ -655,22 +685,26 @@ const DATA = [
       {
         "story": "Paashaani",
         "link": "https://hindikahani.hindi-kavita.com/PashaniRabindranathTagore.php",
-        "language": "Hindi"
+        "language": "Hindi",
+        "original": "Bangla by Unknown"
       },
       {
         "story": "The Hungry Stones",
         "link": "https://short-stories.co/@rabindranathtagore/the-hungry-stones-3jglpynpqldx",
-        "language": "English"
+        "language": "English",
+        "original": "Bangla by C.F. Andrews"
       },
       {
         "story": "The Postmaster",
         "link": "https://short-stories.co/@rabindranathtagore/the-postmaster-2xwv9x3edv4d",
-        "language": "English"
+        "language": "English",
+        "original": "Bangla by Debendranath Mitra"
       },
       {
         "story": "The Lost Jewels",
         "link": "https://en.wikisource.org/wiki/The_Modern_Review/Volume_21/Number_6/The_Lost_Jewels",
-        "language": "English"
+        "language": "English",
+        "original": "Bangla by William Winstanley Pearson"
       }
     ]
   },
@@ -708,7 +742,7 @@ const DATA = [
         "language": "Hindi"
       },
       {
-        "story": "Kokh Jali",
+        "story": "Kokhjali",
         "link": "https://www.rekhta.org/stories/kokh-jali-rajinder-singh-bedi-stories-1?lang=hi",
         "language": "Hindi"
       },
@@ -801,6 +835,53 @@ const DATA = [
         "story": "Raushni Ki Raftaar",
         "link": "https://www.rekhta.org/stories/raushni-ki-raftaar-qurratulain-hyder-stories",
         "language": "Urdu"
+      },
+      {
+        "story": "Kohre Ke Piiche",
+        "link": "https://www.youtube.com/watch?v=qTZWxUPEInU",
+        "language": "Urdu"
+      }
+    ]
+  },
+  {
+    "writer": "Rasheed Jahaan",
+    "stories": [
+      {
+        "story": "Chor",
+        "link": "https://www.rekhta.org/stories/chor-rasheed-jahan-stories?lang=hi",
+        "language": "Urdu"
+      },
+      {
+        "story": "Dilli Ki Sair",
+        "link": "https://www.rekhta.org/stories/dilli-ki-sair-rasheed-jahan-stories?lang=hi",
+        "language": "Urdu"
+      },
+      {
+        "story": "Mard Aur Aurat",
+        "link": "https://www.youtube.com/watch?v=laDnohIg21s",
+        "language": "Urdu"
+      }
+    ]
+  },
+  {
+    "writer": "Sunil Gangopadhyay",
+    "stories": [
+      {
+        "story": "Warm Rice or Just a Ghost Story",
+        "link": "https://www.parabaas.com/translation/database/translations/stories/sunil_warmrice.html",
+        "language": "English",
+        "original": "Bangla by Oindrila Mukherjee"
+      }
+    ]
+  },
+  {
+    "writer": "Premendra Mitra",
+    "stories": [
+      {
+        "story": "The Tale of a Coward",
+        "link": "https://arunavasinha.in/2011/05/12/the-tale-of-a-coward/",
+        "language": "English",
+        "original": "Bangla by Arunava Sinha"
       }
     ]
   }
